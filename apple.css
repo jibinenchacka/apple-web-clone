@@ -1,0 +1,283 @@
+*,*::before,::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 46px;
+
+}
+.section1{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 45px;
+    background:#434344;
+    opacity: 0.95;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    position: fixed;
+    z-index: 100;
+    top: 0px;   
+    right: 0px;
+    left: 0px;
+}
+.section1 ul{
+    display: flex;
+    gap: 50px;
+    text-align: center;
+    align-items: center;
+    
+  
+}
+.section1 img{
+    height: 100%;
+    padding-block: 8px;
+    padding-inline-start: 3px;
+    padding-inline-end: 20px;
+}
+.section1 a{
+    display: flex;
+    color: #cccccc;
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: .02em;
+    font-family: 'Roboto', sans-serif;
+}
+.section1 li{
+    display: flex;
+    flex-direction: row;  
+}
+#search-icon{
+    height: 100%;
+    display: flex;
+    padding-inline-start: 22px;
+    padding-inline-end: 10px;
+}
+#bag-icon{
+    height: 100%;
+    display: flex;
+    padding-block: 12px;
+   
+}
+.section2 {
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    letter-spacing: .01em;
+    font-size: 14.4px;
+    color: #000000;
+   
+   
+
+}
+.learn a:hover{
+    text-decoration: underline;
+}
+
+
+.section2 a{
+    text-decoration: none;
+    letter-spacing: .01em;
+    font-size: 14.4px;
+    color: #2589E8;
+  
+}
+.section2 a:hover{
+    text-decoration: underline;
+    
+}
+.section-3 a:hover{
+    text-decoration: underline;
+    
+}
+.section-4 a:hover{
+    text-decoration: underline;
+    
+}
+
+
+
+.mainimg div{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainimg div img{
+    height: 490px;
+
+}
+.imgtop{
+    color: white;
+    background-color: black;
+text-align: center;
+font-size: 25px;
+    height: 8.5rem;
+    font-family: 'Roboto', sans-serif;
+   padding-block-start: 2rem ;
+   position: relative;
+ 
+
+   
+}
+.imgtop h3{
+    font-weight: 100;
+    padding-bottom: 13px;
+    
+}
+.imgtop a,.phone a,.watch a, .ipad a ,.trade a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #2589E8;
+    padding-block-start: 5rem;
+    padding-top: 30px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.imgtop .buy{
+  padding-inline-start: 25px;
+    color: #2589E8;
+    
+}
+.section-3{
+    background-color: white;
+    background-size: 100% 100%;
+    height: 620px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0.7rem;
+    font-family: 'Roboto', sans-serif;
+   
+}
+.section-3 .phone{
+    background-color: white;
+    background-image: url(./images/iphone-14_overview__50yr9pd9hfm2_og.png);
+    background-position: center;
+    background-repeat: no-repeat;  
+    background-size: contain;
+    background-position-y: 230px;
+    font-family: 'Roboto', sans-serif;
+}
+.section-3 .watch{
+    background-color: black;
+   background-image: url(./images/gps-lte__gi7uzrvkt5e2_og.png);
+   background-position: center;
+   background-repeat: no-repeat;  
+  background-size: contain;
+  background-position-y: 250px;
+  z-index: 100;
+  font-family: 'Roboto', sans-serif;
+   
+}
+.phone,.watch, .ipad ,.trade{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 580;
+    padding-block-start: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+.section-3 .phone h3,.watch h3, .section-4,.ipad h3 .trade h3{
+    font-family: 'Roboto', sans-serif;
+      font-size: 30px;
+      font-weight: 90;
+}
+.section-3 .watch{
+    z-index: 10 ;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    
+    text-align: center;
+}
+.section-4{
+    background-size: 100% 100%;
+    height: 620px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0.7rem;
+    font-family: 'Roboto', sans-serif;
+   
+}
+.section-4 .ipad{
+    background-color:#04000E;
+    background-repeat: no-repeat;  
+    background-size: contain;
+    background-position-y: 230px;
+    font-family: 'Roboto', sans-serif;
+    z-index: 10 ;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.section-4 .ipad img{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    padding-block-start: 45px ;
+   
+}
+
+.section-4 .trade{
+    background-color: #f4f4f7;
+    background-position: center;
+    background-repeat: no-repeat;  
+    font-family: 'Roboto', sans-serif;
+}
+.section-4 .trade img{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    padding-block-start: 50px ;
+  
+   
+}
+.section-5{
+    height: 523px;
+    margin-block-end: 30px;
+}
+footer{
+    background-color:#F5F5F7;
+    padding-inline: 200px;
+    color: #6E6E73;
+    padding-block: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size:smaller;
+    letter-spacing: 1px;
+    
+}
+.footlist{
+    padding-block-start: 30px;
+}
+.footlist ul{
+        display: inline-block;
+        list-style: none ;
+        margin: 40px;
+        font-family: 'Roboto', sans-serif;
+        font-size: small;
+        letter-spacing: 1px;
+        
+       
+}
+.footlist li{
+    padding-block: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: small;
+    letter-spacing: 1px;
+    
+}
+.footer p{
+    font-family: 'Roboto', sans-serif;
+    font-size: small;
+}
+@media screen and (min-width:700px)and (max-width: 2000px) {
+    body {
+     min-width: 100%;
+    }
+  }
